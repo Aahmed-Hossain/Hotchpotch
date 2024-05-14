@@ -3,8 +3,8 @@ import ButtonContained from '@/components/ButtonContained';
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
 const Banner = () => {
   return (
-    <div className="text-center min-h-screen my-8">
-   <h1 className="font-lg text-6xl">
+    <div className="text-center min-h-screen mt-8">
+   <h1 className="font-lg text-3xl md:text-6xl">
    Write better <br/>
 content for your <br />
 <span className="relative">
