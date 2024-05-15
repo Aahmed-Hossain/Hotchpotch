@@ -6,9 +6,9 @@ import frame from "../../public/assests/Frame.png";
 import Text from './shared/Text';
 const CreateContent = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-16 lg:gap-28 xl:gap-20 mt-32 mb-8 px-6 md:px-12 ">
+    <div className="flex flex-col md:flex-row gap-16 lg:gap-28 xl:gap-20 mt-32 mb-8 px-4 md:px-12 ">
       {/* left container */}
-      <div className="w-full md:w-1/2 h-full flex flex-col md:flex-row  ">
+      <div className="w-full md:w-1/2 h-full flex flex-col md:flex-row ">
         <div className="w-[25rem] flex flex-col gap-3 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black px-12 py-4 relative">
           <div>
             <h3 className="font-bold ">Results</h3>
@@ -35,7 +35,7 @@ const CreateContent = () => {
         </div>
 
         <Image
-          className="absolute ml-[17rem] mt-[15rem]"
+          className="absolute hidden lg:block ml-[17rem] mt-[15rem]"
           src={frame}
           alt="frame"
         />

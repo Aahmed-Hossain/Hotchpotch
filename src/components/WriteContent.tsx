@@ -22,7 +22,7 @@ const WriteContent = () => {
       </div>
 
   
-      <div className="w-1/2 flex  gap-6 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black px-12 py-4 relative">
+      <div className="w-full md:w-1/2 flex  gap-6 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black px-12 py-4 relative">
         <div className='w-4/12 space-y-3'>
         <p className="text-sm text-gray-500">
         Blog Outline
@@ -53,7 +53,7 @@ const WriteContent = () => {
             <Image src={lineShort} alt='line'/>
             <Image src={lineMedium} alt='line'/>
         </div>
-          <div className='8/12 space-y-6'>
+          <div className='w-full md:w-8/12 space-y-6'>
             <h3 className="font-bold ">Results</h3>
             <p className="text-sm text-gray-500">
               Here's what our AI came up with.
