@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner';
 import CreateContent from '@/components/CreateContent';
+import CustomersReview from '@/components/CustomersReview';
 import MixlandHelps from '@/components/MixlandHelps';
 import TrustedClients from '@/components/TrustedClients';
 import WriteContent from '@/components/WriteContent';
@@ -14,6 +15,7 @@ export default function Home() {
       <WriteContent/>
       <WritingTools/>
       <MixlandHelps/>
+      <CustomersReview/>
     </div>
   );
 }
