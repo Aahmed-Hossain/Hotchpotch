@@ -8,10 +8,10 @@ export const footerInfo = [
 const Footer = () => {
   return (
     <div className='px-12 my-12'>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-48 justify-between">
 {
             footerInfo.map(item=>(
-                <div key={item.id} className='flex flex-col gap-3'>
+                <div key={item.id} className='space-y-3'>
             <h1 className='font-semibold mb-2'>{item.heading}</h1>
             <p className='text-xs font-light '>{item.p1}</p>
             <p className='text-xs font-light'>{item.p2}</p>
