@@ -1,6 +1,6 @@
 import React from 'react'
-import ButtonContained from '@/components/ButtonContained';
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
+import ButtonContained from './shared/ButtonContained';
 const Banner = () => {
   return (
     <div className="text-center min-h-screen mt-8">

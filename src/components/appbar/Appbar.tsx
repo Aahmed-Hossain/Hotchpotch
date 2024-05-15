@@ -17,8 +17,8 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import logo from "../../../public/assests/Logo_Hotchpotch.png";
 import Link from "next/link";
-import ButtonOutline from "../ButtonOutline";
-import ButtonContained from "../ButtonContained";
+import ButtonOutline from "../shared/ButtonOutline";
+import ButtonContained from "../shared/ButtonContained";
 
 interface Props {
   window?: () => Window;
