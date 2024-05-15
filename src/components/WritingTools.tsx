@@ -11,7 +11,7 @@ const writingToolsData = [
     id: 1,
     logo: blogHead,
     title: "Blog Headlines",
-    des: "Write a better blog title with our A.I tool.",
+    des: "Write a better blog title with our A.I tool. with our",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ const writingToolsData = [
     id: 8,
     logo: blogHead,
     title: "Company About Us",
-    des: "Write a better blog title with our AI tool.",
+    des: "Write a better blog title with our AI with tools .",
   },
 ];
 const WritingTools = () => {
