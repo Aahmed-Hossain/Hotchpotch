@@ -9,7 +9,7 @@ const CreateContent = () => {
     <div className="flex flex-col md:flex-row gap-16 lg:gap-28 xl:gap-20 mt-32 mb-8 px-4 md:px-12 ">
       {/* left container */}
       <div className="w-full md:w-1/2 h-full flex flex-col md:flex-row ">
-        <div className="w-[25rem] flex flex-col gap-3 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black px-12 py-4 relative">
+        <div className="w-full md:w-[25rem] flex flex-col gap-3 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black md:px-6 lg:px-12 px-4 py-4 relative">
           <div>
             <h3 className="font-bold ">Results</h3>
             <p className="text-sm text-gray-500 mt-2">

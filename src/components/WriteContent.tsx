@@ -22,7 +22,7 @@ const WriteContent = () => {
       </div>
 
   
-      <div className="w-full md:w-1/2 flex  gap-6 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black px-12 py-4 relative">
+      <div className="w-full md:w-1/2 flex  gap-6 bg-white shadow-lg hover:shadow-2xl rounded-lg text-black px-4 md:px-6 lg:px-12 py-4 relative">
         <div className='w-4/12 space-y-3'>
         <p className="text-sm text-gray-500">
         Blog Outline
