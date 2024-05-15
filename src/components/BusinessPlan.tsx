@@ -42,7 +42,7 @@ const plans = [
 ];
 const BusinessPlan = () => {
   return (
-    <div className="mb-28">
+    <div className="">
       <div className="text-center">
         <Text text={"Make the wise decision <br/> for your business "} />
         <p className="text-sm text-gray-400 my-8">
@@ -50,7 +50,7 @@ const BusinessPlan = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 lg:px-12 h-[32rem]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 lg:px-12 h-[35rem]">
         {plans.map((plan, idx) => (
           <div
             key={idx}
