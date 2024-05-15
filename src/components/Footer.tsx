@@ -11,12 +11,12 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 md:gap-8 lg:gap-24 xl:48 justify-between">
 {
             footerInfo.map(item=>(
-                <div key={item.id} className='space-y-3'>
+                <div key={item.id} className='space-y-3 '>
             <h1 className='font-semibold mb-2'>{item.heading}</h1>
-            <p className='text-xs font-light '>{item.p1}</p>
-            <p className='text-xs font-light'>{item.p2}</p>
-            <p className='text-xs font-light'>{item.p3}</p>
-            <p className='text-xs font-light'>{item.p4}</p>
+            <p className='text-xs font-light hover:underline cursor-pointer '>{item.p1}</p>
+            <p className='text-xs font-light hover:underline cursor-pointer'>{item.p2}</p>
+            <p className='text-xs font-light hover:underline cursor-pointer'>{item.p3}</p>
+            <p className='text-xs font-light hover:underline cursor-pointer'>{item.p4}</p>
         </div>
             ))
         }
