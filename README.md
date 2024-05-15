@@ -1,7 +1,10 @@
-Live Link: https://hotchpotch.vercel.app
+# Live Link: https://hotchpotch.vercel.app
 
 # To Run on the local m/c.
 ```bash
+git clone https://github.com/Aahmed-Hossain/Hotchpotch.git
+cd Hotchpotch
+npm install
 npm run dev
 ```
 ## Tech Stack
