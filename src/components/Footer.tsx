@@ -7,8 +7,8 @@ export const footerInfo = [
 ]
 const Footer = () => {
   return (
-    <div className='px-12 my-12'>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-48 justify-between">
+    <div className='lg:px-12 px-6 my-12'>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 md:gap-8 lg:gap-24 xl:48 justify-between">
 {
             footerInfo.map(item=>(
                 <div key={item.id} className='space-y-3'>
